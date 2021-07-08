@@ -23,6 +23,8 @@ class Cat:
         self.age = age
 
 
+
+
 if __name__ == '__main__':
     cat1 = Cat()
     cat1.set_name('tom')
@@ -31,5 +33,6 @@ if __name__ == '__main__':
     print(cat1.get_name())
     print(cat1.get_sex())
     print(cat1.get_age())
+
 
 
